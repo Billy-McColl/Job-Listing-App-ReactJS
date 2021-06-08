@@ -27,7 +27,7 @@ const JobBoardComponent = ({job: {
 
 
     return (
-        <div className="flex bg-white shadow-md m-4 p-6 rounded">
+        <div className={`flex bg-white shadow-md m-4 p-6 rounded ${featured && 'border-l-4 border-purple-500 border-solid'}`}>
             <div>
                 <img src={logo} alt={company} />
             </div>

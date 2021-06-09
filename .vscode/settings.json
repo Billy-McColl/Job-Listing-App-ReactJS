@@ -2,6 +2,8 @@
     "cSpell.ignoreWords": [
         "board",
         "component",
-        "job"
+        "filtered",
+        "job",
+        "jobs"
     ]
 }
